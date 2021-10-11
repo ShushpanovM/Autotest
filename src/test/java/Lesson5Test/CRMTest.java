@@ -72,10 +72,10 @@ public class CRMTest {
     @Test
     void crmNewProjectTest() {
         List<WebElement> navMenuElements = driver.findElements(By.xpath("//div[@id='main-menu']/ul/li/a"));
-        WebElement expenceElement = navMenuElements.stream().filter(e -> e.getText().equals("Проекты")).findFirst().get();
+        WebElement expenseElement = navMenuElements.stream().filter(e -> e.getText().equals("Проекты")).findFirst().get();
 
         Actions actions = new Actions(driver);
-        actions.moveToElement(expenceElement).build().perform();
+        actions.moveToElement(expenseElement).build().perform();
         driver.findElement(By.xpath("//span[.='Все проекты']")).click();
 
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[.='Создать проект']")));

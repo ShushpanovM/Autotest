@@ -1,4 +1,4 @@
-package CRM;
+package Lesson3.CRM;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
