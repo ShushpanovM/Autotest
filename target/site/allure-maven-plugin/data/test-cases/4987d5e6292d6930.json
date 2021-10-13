@@ -1,0 +1,167 @@
+{
+  "uid" : "4987d5e6292d6930",
+  "name" : "CheckSearch()",
+  "fullName" : "Lesson6Test.WikiTestPageObject.CheckSearch",
+  "historyId" : "7e29dba0ede9af3946f868ed6e83cf53",
+  "time" : {
+    "start" : 1634152097326,
+    "stop" : 1634152106285,
+    "duration" : 8959
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вводим логин",
+      "time" : {
+        "start" : 1634152099178,
+        "stop" : 1634152099227,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "Tester9400"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Вводим пароль",
+      "time" : {
+        "start" : 1634152099227,
+        "stop" : 1634152099286,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "@Q1w2e3r4"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Кликаем на кнопку войти",
+      "time" : {
+        "start" : 1634152099286,
+        "stop" : 1634152104213,
+        "duration" : 4927
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполняем поле поиска",
+      "time" : {
+        "start" : 1634152104218,
+        "stop" : 1634152104355,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликаем на кнопку поиска",
+      "time" : {
+        "start" : 1634152104355,
+        "stop" : 1634152105580,
+        "duration" : 1225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем результат поиска",
+      "time" : {
+        "start" : 1634152105580,
+        "stop" : 1634152105657,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:Lesson6Test.WikiTestPageObject]/[method:CheckSearch()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-6G605D1"
+  }, {
+    "name" : "thread",
+    "value" : "11332@DESKTOP-6G605D1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Lesson6Test.WikiTestPageObject"
+  }, {
+    "name" : "testClass",
+    "value" : "Lesson6Test.WikiTestPageObject"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckSearch"
+  }, {
+    "name" : "suite",
+    "value" : "Lesson6Test.WikiTestPageObject"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4987d5e6292d6930.json",
+  "parameterValues" : [ ]
+}
