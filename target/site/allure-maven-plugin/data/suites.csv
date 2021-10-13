@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Oct 14 00:08:07 YEKT 2021","Thu Oct 14 00:08:17 YEKT 2021","9723","","Lesson6Test.WikiTestPageObject","","Lesson6Test.WikiTestPageObject","CheckHistoryAdd","CheckHistoryAdd()",""
+"passed","Thu Oct 14 00:08:37 YEKT 2021","Thu Oct 14 00:08:45 YEKT 2021","7673","","Lesson6Test.WikiTestPageObject","","Lesson6Test.WikiTestPageObject","CheckLogin","CheckLogin()",""
+"passed","Thu Oct 14 00:08:26 YEKT 2021","Thu Oct 14 00:08:37 YEKT 2021","11684","","Lesson6Test.WikiTestPageObject","","Lesson6Test.WikiTestPageObject","CheckNewWriteDraft","CheckNewWriteDraft()",""
+"passed","Thu Oct 14 00:08:17 YEKT 2021","Thu Oct 14 00:08:26 YEKT 2021","8959","","Lesson6Test.WikiTestPageObject","","Lesson6Test.WikiTestPageObject","CheckSearch","CheckSearch()",""

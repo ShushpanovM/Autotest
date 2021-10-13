@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Lesson6Test.WikiTestPageObject",
+    "children" : [ {
+      "name" : "CheckHistoryAdd()",
+      "uid" : "b88a383f20e18560",
+      "parentUid" : "a73d9a7b42f73bc7754b3243a0dab335",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634152087536,
+        "stop" : 1634152097259,
+        "duration" : 9723
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CheckSearch()",
+      "uid" : "4987d5e6292d6930",
+      "parentUid" : "a73d9a7b42f73bc7754b3243a0dab335",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634152097326,
+        "stop" : 1634152106285,
+        "duration" : 8959
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CheckNewWriteDraft()",
+      "uid" : "8c59c2392d7dd5b3",
+      "parentUid" : "a73d9a7b42f73bc7754b3243a0dab335",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634152106287,
+        "stop" : 1634152117971,
+        "duration" : 11684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CheckLogin()",
+      "uid" : "b2a9a8803dbc2ae8",
+      "parentUid" : "a73d9a7b42f73bc7754b3243a0dab335",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634152117971,
+        "stop" : 1634152125644,
+        "duration" : 7673
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a73d9a7b42f73bc7754b3243a0dab335"
+  } ]
+}

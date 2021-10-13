@@ -1,6 +1,7 @@
 package Lesson6.Wiki;
 
 import Lesson6.CRM.CreateNewContractorPage;
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,7 @@ public class MainPage extends BaseView {
     @FindBy(xpath = "//a[.='Tester9400']")
     public WebElement nameLogin;
 
+    @Step("Проверяем имя логина")
     public MainPage checkLogin() {
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[.='Tester9400']")));
         webDriverWait.until(ExpectedConditions.visibilityOf(nameLogin));
@@ -27,6 +29,7 @@ public class MainPage extends BaseView {
     @FindBy(id = "searchInput")
     public WebElement searchInputArea;
 
+    @Step("Заполняем поле поиска")
     public MainPage searchInput() {
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("searchInput")));
         webDriverWait.until(ExpectedConditions.visibilityOf(searchInputArea));
@@ -37,6 +40,7 @@ public class MainPage extends BaseView {
     @FindBy(xpath = "//input[@class='searchButton']")
     public WebElement searchButton;
 
+    @Step("Кликаем на кнопку поиска")
     public MainPage searchButtonClick() {
         searchButton.click();
         return this;
@@ -45,6 +49,7 @@ public class MainPage extends BaseView {
     @FindBy(xpath = "//th[.='GeekBrains']")
     public WebElement searchResult;
 
+    @Step("Проверяем результат поиска")
     public MainPage searchResultCheck() {
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//th[.='GeekBrains']")));
         webDriverWait.until(ExpectedConditions.visibilityOf(webDriver.findElement(By.xpath("//th[.='GeekBrains']"))));
@@ -56,6 +61,7 @@ public class MainPage extends BaseView {
     @FindBy(xpath = "//span[.='Черновик']")
     public WebElement draftLink;
 
+    @Step("Кликаем на кнопку Черновик")
     public void draftLinkClick() {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[.='Черновик']")));
         draftLink.click();

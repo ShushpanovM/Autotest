@@ -1,5 +1,6 @@
 package Lesson6.Wiki;
 
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,7 @@ public class DraftPage extends BaseView {
     @FindBy(id = editButtonCSSLocator)
     WebElement editButton;
 
+    @Step("Кликаем на кнопку править")
     public DraftPage editButtonClick() {
         editButton.click();
         return this;
@@ -24,6 +26,7 @@ public class DraftPage extends BaseView {
     @FindBy(id = "mwAg")
     WebElement draftTextArea;
 
+    @Step("Очищаем поле ввода текста черновика")
     public DraftPage draftTextAreaClear() {
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("mwAg")));
         webDriverWait.until(ExpectedConditions.visibilityOf(webDriver.findElement(By.id("mwAg"))));
@@ -31,6 +34,7 @@ public class DraftPage extends BaseView {
         return this;
     }
 
+    @Step("Вводим текст черновика")
     public DraftPage fillDraftTextArea(String draftText) {
         draftTextArea.sendKeys(draftText);
         return this;
@@ -39,6 +43,7 @@ public class DraftPage extends BaseView {
     @FindBy(xpath = "//a[@title='Записать страницу… Alt+Shift+S']")
     WebElement writeDraftButton;
 
+    @Step("Кликаем на первую кнопку Записать страницу")
     public DraftPage writeDraftButtonClick() {
         writeDraftButton.click();
         return this;
@@ -47,6 +52,7 @@ public class DraftPage extends BaseView {
     @FindBy(xpath = "//div/span[.='Записать страницу']")
     WebElement twoWriteDraftButton;
 
+    @Step("Кликаем на вторую кнопку Записать страницу")
     public DraftPage twoWriteDraftButtonClick() {
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div/span[.='Записать страницу']")));
         webDriverWait.until(ExpectedConditions.visibilityOf(twoWriteDraftButton));
